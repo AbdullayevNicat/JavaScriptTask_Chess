@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    margin: 10px auto;
+    width: 720px;
+    height: auto;
+    background-color: rgb(12, 22, 22);
+    background-color: rgb(233, 240, 240);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media only screen and (max-width:750px)
+{
+    #main{
+        width: 560px;
+    }
+    #main td{
+        width: 70px!important;
+        height: 70px!important;
+    }
+}
+@media only screen and (max-width:620px)
+{
+    #main{
+        width: 480px;
+    }
+    #main td{
+        width: 60px!important;
+        height: 60px!important;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #main{
+        width: 320px;
+    }
+    #main td{
+        width: 40px!important;
+        height: 40px!important;
+    }
+}
