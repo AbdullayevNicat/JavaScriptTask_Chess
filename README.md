@@ -1,1 +1,1 @@
-# JavaScriptTask_Chess
+# JavaScript
